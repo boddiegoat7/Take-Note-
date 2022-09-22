@@ -1,3 +1,5 @@
+// function login(signupFormHandler)
+
 function signupFormHandler(event) {
     event.preventDevault();
 
