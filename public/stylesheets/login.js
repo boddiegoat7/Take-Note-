@@ -1,4 +1,4 @@
-function sighnupFormHandler(event) {
+function signupFormHandler(event) {
     event.preventDevault();
 
     const username = document.querySelector('#username-signup').value.trim();
@@ -18,7 +18,7 @@ function sighnupFormHandler(event) {
     }
 }
 
-document.querySelector('signup-form').addEventListener('submit', sighnupFormHandler);
+document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
 
 const login = {
     method: 'POST',
@@ -26,7 +26,7 @@ const login = {
     body: '{"email":"nwestnedge0@cbc.ca","password":"password123"}'
   };
   
-  fetch('/api/users/login', options)
+  fetch('/api/users/login', login)
     .then(response => response.json())
     .then(response => console.log(response))
     .catch(err => console.error(err));
@@ -37,7 +37,7 @@ const login = {
         body: '{"username":"luffyboy","email":"neastnedge0@cbc.ca","password":"password333"}'
       };
       
-      fetch('/api/users/', options)
+      fetch('/api/users/', signup)
         .then(response => response.json())
         .then(response => console.log(response))
         .catch(err => console.error(err));
