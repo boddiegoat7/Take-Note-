@@ -7,7 +7,7 @@ const inputCheck = require('./utils/inputCheck');
 const mysql = require('mysql2');
 
 const routes = require("./controllers");
-//const sequelize = require("./config/connection");
+const sequelize = require("./config/connection");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -64,8 +64,6 @@ app.post('/api/login', ({ body }, res) => {
 });
 
 
-
-
-// sequelize.sync({ force: false }).then(() => {
+ sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log("Now listening"));
-//});
+});
