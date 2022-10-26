@@ -62,8 +62,15 @@ app.post('/api/login', ({ body }, res) => {
     res.status(400).json({ error: errors });
   }
 });
-
+//Deploys the login page
+app.get('/login', (req, res) => {
+  res.sendFile(path.join(__dirname, './views/layouts/main.handlebars/login.handlebars'));
+});
 
  sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log("Now listening"));
+});
+
+app.listen(PORT, () => {
+  console.log(`API server now on port ${PORT}!`);
 });
