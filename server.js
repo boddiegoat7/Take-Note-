@@ -68,7 +68,7 @@ app.post('/api/login', ({ body }, res) => {
 //Deploys the login page
 // app.get('/login', (req, res) => {
 //   res.sendFile(path.join(__dirname, './views/layouts/login.handlebars'));
-// });
+// });...
 
  sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log("Now listening"));
