@@ -12,6 +12,8 @@ const routes = require("./controllers");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+require("dotenv").config();
+
 const hbs = exphbs.create({});
 
 const session =require('express-session');
@@ -48,13 +50,14 @@ app.use(express.static(path.join('./', "public")));
 //   },
 // );
 
+
 app.use(routes);
 
-app.get('/', (req, res) => {
-  res.json({
-    message: 'Hello World'
-  });
-});
+// app.get('/', (req, res) => {
+//   res.json({
+//     message: 'Hello World'
+//   });
+// });
 
 app.post('/api/login', ({ body }, res) => {
   const errors = inputCheck(body, 'username', 'email', 'password');
@@ -62,8 +65,12 @@ app.post('/api/login', ({ body }, res) => {
     res.status(400).json({ error: errors });
   }
 });
-
+//Deploys the login page
+// app.get('/login', (req, res) => {
+//   res.sendFile(path.join(__dirname, './views/layouts/login.handlebars'));
+// });
 
  sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log("Now listening"));
 });
+
