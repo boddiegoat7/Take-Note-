@@ -41,7 +41,7 @@
 
   - Passport's sole purpose is to authenticate requests. Documentation located at:
     
-      -https://www.npmjs.com/package/passport
+      - https://www.npmjs.com/package/passport
 
 - Express :
 
@@ -59,7 +59,7 @@
 
     - is used to crwate databases that are reconized by js to display data.  
   
-      -https://www.mysql.com/  
+      - https://www.mysql.com/  
     
     
     
