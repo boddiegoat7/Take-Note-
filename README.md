@@ -45,21 +45,21 @@
 
 - Express :
 
-  -  is a minimal and flexible Node.js web application framework that provides features for web and mobile applications.  
+    -  is a minimal and flexible Node.js web application framework that provides features for web and mobile applications.  
   
-    - https://www.npmjs.com/package/express
+      - https://www.npmjs.com/package/express
     
 - Handlebars :
 
- -  is a simple templating language and uses a template and an input object to generate HTML or other text formats.  
+    -  is a simple templating language and uses a template and an input object to generate HTML or other text formats.  
   
-   - https://www.npmjs.com/package/handlebars
+      - https://www.npmjs.com/package/handlebars
    
 - MySQL :
 
- -  is used to crwate databases that are reconized by js to display data.  
+    - is used to crwate databases that are reconized by js to display data.  
   
-   - https://www.mysql.com/  
+      - https://www.mysql.com/  
     
     
     
