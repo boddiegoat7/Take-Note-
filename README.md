@@ -41,7 +41,7 @@
 
   - Passport's sole purpose is to authenticate requests. Documentation located at:
     
-      - https://www.npmjs.com/package/passport
+      -https://www.npmjs.com/package/passport
 
 - Express :
 
@@ -59,14 +59,14 @@
 
     - is used to crwate databases that are reconized by js to display data.  
   
-      - https://www.mysql.com/  
+      -https://www.mysql.com/  
     
     
     
 
 - Heroku :
 
-  -Heroku is a way for us to deploy and use our apps all on the cloud in comparision to heroku which only allows us to test on our local machine. the download link for this is loacted at: 
+  - Heroku is a way for us to deploy and use our apps all on the cloud in comparision to heroku which only allows us to test on our local machine. the download link for this is loacted at: 
     
     - https://devcenter.heroku.com/articles/heroku-cli
 
@@ -95,7 +95,7 @@
 
 -Also clicking the link below will alow u to vist the heroku ink for the project:
 
-    https://peaceful-sierra-50494.herokuapp.com/
+    - https://peaceful-sierra-50494.herokuapp.com/
 
 ## QUESTIONS
 
