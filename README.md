@@ -1,4 +1,4 @@
-# Project 2 Note Taker App
+# Project 2 Take Note!
 
 
 ## TABLE OF CONTENTS
