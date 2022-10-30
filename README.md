@@ -122,6 +122,12 @@ or
         
 ## VIDEO
 
+PowerPoint:
+
+https://docs.google.com/presentation/d/1BBnuODjpnz1OsKKl_NTauKEBBW8Wic_8n6aw9m50dHs/edit#slide=id.g152b3a1d589_0_10
+
+
+
 ![project 2](https://user-images.githubusercontent.com/107088058/198903858-46461e13-c73a-47e2-8337-8fea5a2f26d2.png)
 
 
