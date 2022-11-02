@@ -56,6 +56,7 @@ app.get('/', (req, res) => {
   });
 });
 
+
 app.post('/api/login', ({ body }, res) => {
   const errors = inputCheck(body, 'username', 'email', 'password');
   if (errors) {
