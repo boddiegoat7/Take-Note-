@@ -53,11 +53,12 @@ app.use(express.static(path.join('./', "public")));
 
 app.use(routes);
 
-// app.get('/', (req, res) => {
-//   res.json({
-//     message: 'Hello World'
-//   });
-// });
+app.get('/', (req, res) => { 
+  res.json({ 
+    message: 'Hello World' 
+  }); 
+}); 
+
 
 app.post('/api/login', ({ body }, res) => {
   const errors = inputCheck(body, 'username', 'email', 'password');
